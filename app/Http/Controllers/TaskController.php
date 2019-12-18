@@ -38,7 +38,7 @@ class TaskController extends Controller
         $task=new task;
 
         $this->validate($request,[
-        'task'=>'required|max:100|min:5',
+        'task'=>'required|max:100|min:0',
         ] );
 
         $task->task=$request->task;
