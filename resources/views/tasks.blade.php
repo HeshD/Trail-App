@@ -40,7 +40,7 @@
                         <td>{{$task->id}}</td>
                         <td>{{$task->task}}</td>
                         <td>
-                        @if($task->iscompleted)
+                        @if($task->IsCompleted)
                         <button class="btn btn-success">Completed</button>
                         @else
                         <button class="btn btn-warning">Not Completed</button>

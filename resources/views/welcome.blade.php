@@ -85,6 +85,7 @@
                 </div>
                 <div class="content">
                 BIT Project</div>
+                <a href="/task" class="btn btn-primary">Click to View Daily Tasks</a>
 
                 <!--
                     <a href="https://laravel.com/docs">Docs</a>

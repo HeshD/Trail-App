@@ -13,3 +13,6 @@ $data=App\task::all();
 
 Route::post('/saveTask','TaskController@store');
 //route::get('/contactus','Frontendcontroller@indexhome');
+
+Route::get('/markascompleted/(id)','TaskController@UpdateTaskCompleted');
+
